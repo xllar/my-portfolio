@@ -1,0 +1,112 @@
+.background {
+  min-height: 100vh;
+  background: linear-gradient(to right, #3498db, #8e44ad);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+
+  h1 {
+    font-size: 3rem;
+    color: #f1c40f;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  .subTitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 0.5rem;
+  }
+}
+
+.container {
+  background: #ecf0f1;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  color: #333;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+  color: #2980b9;
+}
+
+.todos {
+  margin-bottom: 1rem;
+}
+
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background: #fff;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.deleteButton {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.5rem;
+  border-radius: 3px;
+  cursor: pointer;
+
+  &:hover {
+    background: #c0392b;
+  }
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+
+  .input {
+    width: 75%;
+    padding: 0.5rem;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+  }
+
+  .addButton {
+    width: 20%;
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+
+    &:hover {
+      background: #2980b9;
+    }
+  }
+}
+
+.footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1rem;
+
+  p {
+    margin: 0;
+    color: #fff;
+  }
+}
