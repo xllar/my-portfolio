@@ -40,7 +40,7 @@ export default function ProjectsPage() {
     <div className={styles.container}>
       <header className={styles.header}>
         <h1 className={styles.headerTitle}>My Projects Portfolio</h1>
-        <p className={styles.headerSubtitle}>By Victor Ifeanyi Ngr</p>
+        <p className={styles.headerSubtitle}>By Victor Ifeanyi </p>
       </header>
 
       <p className={styles.intro}>
