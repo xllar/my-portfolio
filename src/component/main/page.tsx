@@ -5,9 +5,14 @@ import styles from './styles.module.scss';
 export default function ProjectsPage() {
   const projects = [
     {
-      title: 'Button Click',
-      description: 'A simple app where you click a button, and it tells you which button you clicked.',
-      link: '/Button',
+      title: 'Blog',
+      description: 'A blog website where users can register, get newsletters, comment, post, etc.',
+      link: 'https://nexuseditorial.vercel.app/',
+    },
+{
+      title: 'Weather UI',
+      description: 'A modern weather UI that displays current weather conditions and forecasts.',
+      link: './weatherUI',
     },
     {
       title: 'Calculator',
@@ -24,15 +29,12 @@ export default function ProjectsPage() {
       description: 'A simple to-do list app to manage your tasks efficiently.',
       link: '/Todo-List',
     },
-    {
-      title: 'Weather UI',
-      description: 'A modern weather UI that displays current weather conditions and forecasts.',
-      link: './weatherUI',
-    },
-    {
-      title: 'Blog',
-      description: 'A blog website where users can register, get newsletters, comment, post, etc.',
-      link: 'https://nexuseditorial.vercel.app/',
+    
+    
+{
+      title: 'Button Click',
+      description: 'A simple app where you click a button, and it tells you which button you clicked.',
+      link: '/Button',
     },
   ];
 
