@@ -9,7 +9,7 @@ export default function ProjectsPage() {
       description: 'A blog website where users can register, get newsletters, comment, post, etc.',
       link: 'https://nexuseditorial.vercel.app/',
     },
-{
+    {
       title: 'Weather UI',
       description: 'A modern weather UI that displays current weather conditions and forecasts.',
       link: './weatherUI',
@@ -29,9 +29,7 @@ export default function ProjectsPage() {
       description: 'A simple to-do list app to manage your tasks efficiently.',
       link: '/Todo-List',
     },
-    
-    
-{
+    {
       title: 'Button Click',
       description: 'A simple app where you click a button, and it tells you which button you clicked.',
       link: '/Button',
@@ -42,7 +40,7 @@ export default function ProjectsPage() {
     <div className={styles.container}>
       <header className={styles.header}>
         <h1 className={styles.headerTitle}>My Projects Portfolio</h1>
-        <p className={styles.headerSubtitle}>By Victor Ifeanyi </p>
+        <p className={styles.headerSubtitle}>By Victor Ifeanyi</p>
       </header>
 
       <p className={styles.intro}>
@@ -54,8 +52,8 @@ export default function ProjectsPage() {
           <div key={index} className={styles.projectItem}>
             <h2 className={styles.projectTitle}>{project.title}</h2>
             <p className={styles.projectDescription}>{project.description}</p>
-            <Link href={project.link} className={styles.projectLink}>
-              View Project
+            <Link href={project.link}>
+              <a className={styles.projectLink}>View Project</a>
             </Link>
           </div>
         ))}
