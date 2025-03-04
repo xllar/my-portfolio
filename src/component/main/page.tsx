@@ -49,7 +49,7 @@ export default function ProjectsPage() {
       </header>
 
       <p className={styles.intro}>
-        Welcome to my portfolio! Here are some projects that I've built using Next.js, SCSS, TypeScript, JavaScript, MongoDB, and Sanity CMS.
+        Welcome to my portfolio! Here are some projects that I've built using Next.js, SCSS, TypeScript, JavaScript, MongoDB,Firestore, and Sanity CMS.
       </p>
 
       <div className={styles.projectsList}>
