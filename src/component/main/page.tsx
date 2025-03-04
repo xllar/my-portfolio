@@ -15,6 +15,11 @@ export default function ProjectsPage() {
       link: './weatherUI',
     },
     {
+      title: 'Spreadsheet',
+      description: 'A collaborative spreadsheet app with Firestore, real-time sync, dynamic rows/columns,CRUD features, built with Next.js,Javascript, and Tailwind.',
+      link: 'https://spreadsheet-mocha-five.vercel.app/',
+    },
+    {
       title: 'Calculator',
       description: 'A functional calculator built to perform basic arithmetic operations.',
       link: '/calculator',
