@@ -21,6 +21,11 @@ export default function Main() {
       link: 'https://nexuseditorial.vercel.app/',
     },
     {
+      title: 'Weather UI',
+      description: 'A modern weather UI that displays current weather conditions and forecasts.',
+      link: './weatherUI',
+    },
+    {
       title: 'Calculator',
       description: 'A functional calculator built to perform basic arithmetic operations.',
       link: '/calculator',
@@ -29,11 +34,6 @@ export default function Main() {
       title: 'To-Do List',
       description: 'A simple to-do list app to manage your tasks efficiently.',
       link: '/Todo-List',
-    },
-    {
-      title: 'Weather UI',
-      description: 'A modern weather UI that displays current weather conditions and forecasts.',
-      link: './weatherUI',
     },
     {
       title: 'Registration Page',
