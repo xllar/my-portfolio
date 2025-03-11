@@ -72,9 +72,7 @@ export default function TodoList() {
         </div>
       </div>
 
-      <footer className={styles.footer}>
-        <p>This project was made by <strong>Ifeanyi</strong> with ❤️</p>
-      </footer>
+     
     </div>
   );
 }
