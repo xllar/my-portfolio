@@ -11,19 +11,19 @@ export default function Main() {
   // Project data
   const myProjects = [
     {
-      title: 'Button Click',
-      description: 'A simple app where you click a button, and it tells you which button you clicked.',
-      link: '/Button',
+      title: 'Spreadsheet',
+      description: 'A collaborative spreadsheet application with real-time updates.',
+      link: 'https://spreadsheet-mocha-five.vercel.app',
+    },
+    {
+      title: 'Blog',
+      description: 'A blog website where users can register, get newsletters, comment, post, etc.',
+      link: 'https://nexuseditorial.vercel.app/',
     },
     {
       title: 'Calculator',
       description: 'A functional calculator built to perform basic arithmetic operations.',
       link: '/calculator',
-    },
-    {
-      title: 'Registration Page',
-      description: 'A registration page utilizing Formik and Yup.',
-      link: '/registration',
     },
     {
       title: 'To-Do List',
@@ -36,11 +36,16 @@ export default function Main() {
       link: './weatherUI',
     },
     {
-      title: 'Blog',
-      description: 'A blog website where users can register, get newsletters, comment, post, etc.',
-      link: 'https://nexuseditorial.vercel.app/',
+      title: 'Registration Page',
+      description: 'A registration page utilizing Formik and Yup.',
+      link: '/registration',
     },
-  ]
+    {
+      title: 'Button Click',
+      description: 'A simple app where you click a button, and it tells you which button you clicked.',
+      link: '/Button',
+    },
+];
 
   return (
     <div className={darkMode ? 'dark-mode' : 'light-mode'}>
